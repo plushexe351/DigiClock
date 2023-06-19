@@ -12,7 +12,7 @@ body {
   /* background:url(https://free4kwallpapers.com/uploads/originals/2022/03/28/anime-landscape-for-desktop-scenery-clouds-stars-buildings-wallpaper.jpg) center/cover; */
   /* background: url(mesh-gradient.png)center/cover; */
   background: rgb(15, 0, 11);
-  overflow: hidden;
+  overflow-x: hidden;
   min-height:100vh;
 }
 .pattern{
@@ -65,7 +65,7 @@ body {
 }
 .container div
 {
-  margin-block:50px;
+  /* margin-block:50px; */
 }
 .time-div{
   display: flex;
@@ -86,12 +86,6 @@ body {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
-
-.date-div {
-  font-weight: 200;
-  font-size: 2rem;
-  /* margin-top: 20px; */
-}
 #am-pm{
   height:100px;
   width:100px;
@@ -99,8 +93,12 @@ body {
   align-self:last baseline;
   font-weight: lighter;
 }
+.date-div {
+  margin-top: 30px;
+}
 #date{
-  font-size: 3rem;
+  font-weight: 200;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 @media(max-width:1000px){
